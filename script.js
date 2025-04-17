@@ -63,8 +63,8 @@ gsap.from("#page1 .img img",{
 
 var tl=gsap.timeline();
 tl.from("#page2 .img",{
-  x: -50,
   opacity: 0,
+  scale: 0,
   scrollTrigger: ("#page2 .img",{
     scroller: "#main",
     trigger: "#page2 .img",
@@ -74,8 +74,9 @@ tl.from("#page2 .img",{
   })
 })
 tl.from("#page2 .description h3",{
-  x: 150,
+  x: 10,
   opacity: 0,
+  scale: 0,
   scrollTrigger: ("#page2 .description h3",{
     scroller: "#main",
     trigger: "#page2 .description h3",
@@ -85,7 +86,7 @@ tl.from("#page2 .description h3",{
   })
 })
 tl.from("#page2 .description p",{
-  x: -150,
+  scale: 0,
   opacity: 0,
   scrollTrigger: ("#page2 .description p",{
     scroller: "#main",
@@ -119,7 +120,7 @@ gsap.from("#page3 img",{
   })
 })
 tl.from("#page3 .top h3",{
-  x: 150,
+  scale: 0,
   opacity: 0,
   scrollTrigger: ("#page3 .top h3",{
     scroller: "#main",
@@ -157,7 +158,7 @@ gsap.from("#page5 .img img",{
 })
 
 tl.from("#page6 .heading h2",{
-  x: -150,
+  scale: 0,
   opacity: 0,
   rotate: 135+"deg",
   scrollTrigger: ("#page6 .heading h2",{
