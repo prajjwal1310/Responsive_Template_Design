@@ -478,6 +478,12 @@ nav .menu i{
 #page8 .touch-btn h6{
     font-size: 3vw;
 }
+#page8 .landmark h1{
+    font-size: 2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 3vh;
+}
 
 @media (min-width: 890px) {
     nav,#page1,#page2,#page3,#page4,#page5,#page6,#page7{
@@ -782,5 +788,9 @@ nav .menu i{
     #page8 .touch-btn h6{
         font-size: 0.8vw;
         font-weight: 650;
+    }
+    #page8 .landmark h1{
+        font-size: 0.8vw;
+        margin-top: 5vh;
     }
 }
